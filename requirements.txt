@@ -1,0 +1,12 @@
+# 本段代码由AI辅助生成
+streamlit>=1.32
+langchain
+langchain-classic
+langchain-community
+langchain-ollama
+langchain-chroma
+langchain-text-splitters
+chromadb
+pypdf
+python-docx
+tiktoken
