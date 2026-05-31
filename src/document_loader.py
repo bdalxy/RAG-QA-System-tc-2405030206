@@ -105,7 +105,7 @@ def split_documents(
     使用 RecursiveCharacterTextSplitter 对文档列表进行分块处理。
 
     分块策略：
-    - 递归地按分隔符（\n\n -> \n -> 空格 -> 空字符）进行分割
+    - 递归地按分隔符（\\n\\n -> \\n -> 空格 -> 空字符）进行分割
     - 保证每个文本块在 chunk_size 范围内
     - 相邻块之间有 chunk_overlap 字符的重叠，保持语义连续性
 
