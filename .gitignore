@@ -22,6 +22,7 @@ chroma_db/
 
 # --- Streamlit 配置（可能含密钥） ---
 .streamlit/secrets.toml
+.streamlit_home/
 
 # --- PyInstaller 打包产物 ---
 dist/
